@@ -16,18 +16,21 @@ public://akses modifier
 
 class Matakuliah{
 	private:
-		string kodeMK;
-		string namaMK;
+		string kodemk;
+		string namamk;
 		int sks;
 
 	public:
 		void input() {
 			cout << "kode mk:";
-			cin >> kodeMK;
+			cin >> kodemk;
 			cout << "nama MK";
-			cin >> namaMK;
+			cin >> namamk;
 			cout << "SKS";
 			cin >> sks;
+		}
+		void output() {
+
 		}
 };
 
@@ -42,6 +45,9 @@ int main(){
 	mhs.jurusan = "teknik informatika";
 	mhs.output();
 
+	mk.input();
+	mk.output();
 
+	return 0;
 
 }
