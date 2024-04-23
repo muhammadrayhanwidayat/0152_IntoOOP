@@ -24,13 +24,15 @@ class Matakuliah{
 		void input() {
 			cout << "kode mk:";
 			cin >> kodemk;
-			cout << "nama MK";
+			cout << "nama mk";
 			cin >> namamk;
 			cout << "SKS";
 			cin >> sks;
 		}
 		void output() {
-
+			cout << "kode mk:" << kodemk << endl;
+			cout << "nama mk:" << namamk << endl;
+			cout << "sks:" << sks << endl;
 		}
 };
 
