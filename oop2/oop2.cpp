@@ -8,6 +8,9 @@ class bangundatar {
     public:
         float luas;
 
+        void input() {
+
+        }
 
 };
 
