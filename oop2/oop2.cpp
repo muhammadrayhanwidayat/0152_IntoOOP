@@ -4,12 +4,16 @@ using namespace std;
 class bangundatar {
     //akses modifier
     private:
-        float pangjang, lebar;
+        float panjang, lebar;
     public:
         float luas;
 
-        void input() {
+        void input() { //methode input persegi panjang
 
+            cout << "masukan panjangnya = ";
+            cin >> panjang;
+            cout << "masukan lebarnya = ";
+            cin >> lebar;
         }
 
 };
