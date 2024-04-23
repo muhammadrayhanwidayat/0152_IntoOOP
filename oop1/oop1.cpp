@@ -7,7 +7,11 @@ public://akses modifier
 	int umur;
 	string jurusan;
 
-	void output(){}
+	void output(){
+		cout << "nama:" << nama << endl;
+		cout << "umur:" << umur << endl;
+		cout << "jurusan:" << jurusan << endl;
+	}
 };
 
 
