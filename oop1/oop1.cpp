@@ -14,7 +14,12 @@ public://akses modifier
 	}
 };
 
-class Matakuliah{};
+class Matakuliah{
+	private:
+		string kodeMK;
+		string namaMK;
+		int sks;
+};
 
 
 
