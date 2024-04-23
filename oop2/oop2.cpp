@@ -29,11 +29,7 @@ class bangundatar {
 
 };
 
+int main(){
+    bangundatar pp;//deklarasi objek pp dari class bangun datar
 
-
-
-
-int main()
-{
-    
 }
